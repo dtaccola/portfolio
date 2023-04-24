@@ -115,7 +115,9 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
 
 // Social Icons 
 
-export const SocialIcons = styled.a`
+export const SocialIcons = styled.a.attrs(() => ({
+  target: "_blank",
+}))`
 transition: 0.3s ease;
 color: white;
 border-radius: 50px;

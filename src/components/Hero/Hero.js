@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
@@ -8,15 +9,17 @@ const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome to <br />
-        My Personal Portfolio
+        Bem-vindo(a) ao meu<br />
+        portfólio pessoal
       </SectionTitle>
       <SectionText>
-        Estes são alguns dos projetos em React.js
+        Estes são alguns dos meus projetos em React.js
       </SectionText>
-      <Button onclik={() => window.location = 'https://google.com'}>Learn More</Button>
+      <Button>
+        <Link href="#projects">Saiba mais</Link>
+      </Button>
     </LeftSection>
-  </Section>
+  </Section >
 );
 
 export default Hero;

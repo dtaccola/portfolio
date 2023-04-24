@@ -10,26 +10,23 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:111-111-1111">111-111-1111</LinkItem>
+          <LinkItem href="tel:(11) 96498-8403">(11) 96498-8403</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:email@email.com">email@email.com</LinkItem>
+          <LinkItem href="mailto:danieltaccola@yahoo.com.br">danieltaccola@yahoo.com.br</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating one project at a time</Slogan>
+          {/* <Slogan>Inovando e aprimorando a cada projeto</Slogan> */}
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href='https://github.com'>
+          <SocialIcons href='https://github.com/dtaccola'>
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href='https://linkedin.com'>
+          <SocialIcons href='https://www.linkedin.com/in/daniel-lucas-taccola-720129238/'>
             <AiFillLinkedin size="3rem" />
-          </SocialIcons>
-          <SocialIcons href='https://instagram.com'>
-            <AiFillInstagram size="3rem" />
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
