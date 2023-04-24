@@ -4,8 +4,8 @@ export const projects = [
     description: "Projeto Gericht Restaurant. Utilizando React e CSS puro, é um projeto de um restaurante.",
     image: '/images/1.webp',
     tags: ['React', 'JavaScript'],
-    source: 'https://restaurant-chi-drab.vercel.app/',
-    visit: 'https://github.com/dtaccola/restaurant',
+    source: 'https://github.com/dtaccola/restaurant',
+    visit: 'https://restaurant-chi-drab.vercel.app/',
     id: 0,
   },
   {
@@ -13,8 +13,8 @@ export const projects = [
     description: "Projeto Hoo Bank. Utilizando React, Vite e Tailwind CSS, é um projeto de um banco digital.",
     image: '/images/2.webp',
     tags: ['Javascript', 'React', 'Vite', 'Tailwind CSS'],
-    source: 'https://bank-xi.vercel.app/',
-    visit: 'https://github.com/dtaccola/bank',
+    source: 'https://github.com/dtaccola/bank',
+    visit: 'https://bank-xi.vercel.app/',
     id: 1,
   },
   {
@@ -22,8 +22,8 @@ export const projects = [
     description: "Projeto GPT-3. Utilizando React e CSS puro, é um projeto de uma inteligência artificial.",
     image: '/images/3.webp',
     tags: ['Javascript', 'React'],
-    source: 'https://gpt3-seven-rho.vercel.app/',
-    visit: 'https://github.com/dtaccola/gpt3',
+    source: 'https://github.com/dtaccola/gpt3',
+    visit: 'https://gpt3-seven-rho.vercel.app/',
     id: 2,
   },
   {
@@ -31,8 +31,8 @@ export const projects = [
     description: "Este portfólio também é um projeto. Utilizando React, Next.js, Tailwind CSS e Styled components, é um projeto de um portfólio para desenvolvedores.",
     image: '/images/4.webp',
     tags: ['Javascript', 'React', 'Next.js', 'Tailwind CSS'],
-    source: 'https://taccoladev.com.br/',
-    visit: 'https://github.com/dtaccola/portfolio',
+    source: 'https://github.com/dtaccola/portfolio',
+    visit: 'https://taccoladev.com.br/',
     id: 3,
   },
 ];
